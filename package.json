@@ -1,0 +1,30 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.2",
+  "description": "FreeCodeCamp API Basejump: Timestamp microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mghthakkar/timestamp-api.git"
+  },
+  "keywords": [
+    "API",
+    "TimeStamp",
+    "NODE"
+  ],
+  "author": "Megha",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mghthakkar/timestamp-api"
+  },
+  "homepage": "https://github.com/mghthakkar/timestamp-api",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.14.0",
+    "moment": "^2.14.1"
+  }
+}
